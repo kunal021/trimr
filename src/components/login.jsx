@@ -103,7 +103,7 @@ const Login = () => {
         {errors.password && <Error message={errors.password} />}
       </CardContent>
       <CardFooter>
-        <Button onClick={handleLogin}>
+        <Button onClick={handleLogin} className="w-full">
           {loading ? <Loader className="h-4 w-4 animate-spin" /> : "Login"}
         </Button>
       </CardFooter>

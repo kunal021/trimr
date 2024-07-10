@@ -18,12 +18,12 @@ function Auth() {
 
   return (
     <div className="mt-10 flex flex-col items-center gap-10">
-      <h1 className="text-5xl font-extrabold">
+      <h1 className="text-2xl md:text-5xl font-extrabold">
         {searchParams.get("createNew")
           ? "Hold up! Let's login first.."
           : "Login / Signup"}
       </h1>
-      <Tabs defaultValue="login" className="w-[400px]">
+      <Tabs defaultValue="login" className="w-[300px] sm:w-[400px]">
         <TabsList className="grid w-full grid-cols-2">
           <TabsTrigger value="login">Login</TabsTrigger>
           <TabsTrigger value="signup">Signup</TabsTrigger>
