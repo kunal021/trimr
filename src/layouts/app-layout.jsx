@@ -8,9 +8,9 @@ const AppLayout = () => {
         <Header />
         <Outlet />
       </main>
-      <footer className="p-3 text-lg font-semibold text-center bg-slate-900 text-white mt-5">
+      {/* <footer className="p-3 text-lg font-semibold text-center bg-slate-900 text-white mt-5">
         Made With 💖 By Kunal
-      </footer>
+      </footer> */}
     </div>
   );
 };
